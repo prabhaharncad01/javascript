@@ -44,3 +44,70 @@ b ="20"
 
 a=a+b;
 console.log(a);
+
+const f={fname:"praba",age:29}
+console.log(f,typeof f);
+f.fname="mani";
+console.log(f,typeof f);
+
+let v1=50;
+let v2=20;
+
+//addtion
+
+console.log(v1+v2);
+
+//subraction
+console.log(v1-v2);
+//multiplication
+console.log(v1*v2);
+//division
+console.log(v1/v2);
+//modulus
+console.log(v1%v2);
+//Expo
+console.log(v1**v2);
+//incrment
+v1=++v1;
+console.log(v1);
+//decrement
+v1=--v1;
+console.log(v1);
+//assignment
+v1=25;
+console.log(v1);
+
+v1+=20;
+console.log(v1);
+
+v1-=20;
+console.log(v1);
+
+v1*=20;
+console.log(v1);
+
+v1/=20;
+console.log(v1);
+
+v1%=20;
+console.log(v1);
+//comparision operator
+console.log(v1==5);
+console.log(v1==="5", typeof v1);
+
+console.log(v1!==1);
+console.log(v1==="5", typeof v1);
+
+
+//realtion operator
+console.log(v1>1);
+console.log(v1<1);
+console.log(v1>=5);
+console.log(v1<=10);
+
+// logical operator
+
+v1="s";
+console.log(v1==5||v1<2||v1>5);
+console.log(v1=="s");
+console.log(!(v1=="s"));
