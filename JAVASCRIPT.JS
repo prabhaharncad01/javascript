@@ -111,3 +111,36 @@ v1="s";
 console.log(v1==5||v1<2||v1>5);
 console.log(v1=="s");
 console.log(!(v1=="s"));
+
+//ternary operator
+
+//condition? statement1:statement2;
+a1="praba"
+console.log(a1);
+var output=a1=="praba"? "a1 has value":"a1 has no value";
+console.log(output);
+
+function findgrade()
+{
+    m=96;
+    var mark= (35<m && m<60)? "grade c":(60<=m && m<80)? "grade b":(80<=m && m<90)? "grade a":(90<m && m<100)? "grade distinction":"fail";
+    console.log(mark);
+}
+findgrade()
+
+function findgrade(m,k)
+{
+    m=96;
+    var mark= (35<m && m<60)? "grade c":(60<=m && m<80)? "grade b":(80<=m && m<90)? "grade a":(90<m && m<100)? "grade distinction":"fail";
+    console.log(k,mark);
+}
+findgrade(56,"praba")
+
+
+var  findgrade2=(m,k)=>{
+
+
+    var mark= (35<m && m<60)? "grade c":(60<=m && m<80)? "grade b":(80<=m && m<90)? "grade a":(90<m && m<100)? "grade distinction":"fail";
+    console.log(k,mark);
+}
+console.log(findgrade2(80,"praba"));
