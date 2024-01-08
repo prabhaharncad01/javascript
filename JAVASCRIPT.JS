@@ -144,3 +144,65 @@ var  findgrade2=(m,k)=>{
     console.log(k,mark);
 }
 console.log(findgrade2(80,"praba"));
+
+
+
+function checkgrade(){
+    console.log("welcome");
+    console.log("just trying");
+}
+
+var checkgrade1=(a,b)=>{
+    console.log(a+b);
+    return a+b;
+};
+
+
+checkgrade();
+console.log("added value",checkgrade1(1,2))
+
+
+function gradechecking(m)
+{
+    if (35>m && m!=null)
+    {
+        console.log("no grade");
+        console.log("fail");
+    }
+    else{
+        if(35>m && m!=null && m<=60){
+            console.log("pass");
+            console.log("grade c");
+
+        }
+        else if(60>m && m!=null && m<=80){
+            console.log("pass");
+            console.log("grade b");
+
+        }
+        else if(80>m && m!=null && m<=100){
+            console.log("pass");
+            console.log("grade a");
+
+          
+        }
+        else{
+           gradechecking(prompt("enter mark"));
+
+        }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
