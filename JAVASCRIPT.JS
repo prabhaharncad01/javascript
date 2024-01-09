@@ -218,16 +218,36 @@ switch(new Date().getDay())
         day="thusday";
         break;
 
-        case  0:
+        case  5:
         day="friday";
         break;
 
-        case  0:
+        case  6:
         day="saturday";
      
 }
 document.getElementById("demo").innerHTML="today is " + day;
 
+
+function checkingswitch(a)
+{
+switch(a)
+{
+    case '1':
+    console.log("case 1excecuted",a);
+      break;
+    case 'p':
+    console.log("case p excecuted",a);
+    break;
+    case 'l':
+    console.log("case  l excecuted",a);
+    break;
+    default:
+        console.log("no cases");
+}
+
+}
+checkingswitch(prompt("enter the case you want"));
 
 
 
