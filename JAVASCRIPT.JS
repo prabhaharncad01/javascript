@@ -185,16 +185,48 @@ function gradechecking(m)
             console.log("grade a");
         }
         else{
-           gradechecking(prompt("enter mark"));
-
-        }
+            gradechecking(prompt("enter mark"));
+        
+         }
+       
 }
 }
 
 gradechecking();
 
 
+let day;
+switch(new Date().getDay())
+{
+    case  0:
+        day="sunday";
+        break;
 
+        case  1:
+        day="monday";
+        break;
+
+        case  2:
+        day="tuesday";
+        break;
+
+        case  3:
+        day="wednesday";
+        break;
+
+        case  4:
+        day="thusday";
+        break;
+
+        case  0:
+        day="friday";
+        break;
+
+        case  0:
+        day="saturday";
+     
+}
+document.getElementById("demo").innerHTML="today is " + day;
 
 
 
