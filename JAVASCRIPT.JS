@@ -170,21 +170,19 @@ function gradechecking(m)
         console.log("fail");
     }
     else{
-        if(35>m && m!=null && m<=60){
+        if(35<m && m!=null && m<=60){
             console.log("pass");
             console.log("grade c");
 
         }
-        else if(60>m && m!=null && m<=80){
+        else if(60<m && m!=null && m<=80){
             console.log("pass");
             console.log("grade b");
 
         }
-        else if(80>m && m!=null && m<=100){
+        else if(80<m && m!=null && m<=100){
             console.log("pass");
             console.log("grade a");
-
-          
         }
         else{
            gradechecking(prompt("enter mark"));
@@ -193,7 +191,7 @@ function gradechecking(m)
 }
 }
 
-
+gradechecking();
 
 
 
