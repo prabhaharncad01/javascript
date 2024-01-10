@@ -4,9 +4,20 @@ h1{
     color: transparent;
 }
 p{
-    font-size: 20px;
+    font-size: 6em;
     color: #330867;
     font-style: oblique;
     font-weight: 500px;
     text-align: center;
+    position: relative;
+    line-height: 0.7em;
+    -webkit-box-reflect:below 2px linear-gradient(transparent, #0008);
+    animation: animate 5s linear infinite;
+    letter-spacing: 15px;
+    outline: none;
+    width:100%;
+    text-transform: capitalize;
+}
+body{
+    background-color: cornflowerblue;
 }
