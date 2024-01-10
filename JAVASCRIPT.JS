@@ -255,4 +255,36 @@ checkingswitch(prompt("enter the case you want"));
 
 
 
+function checkingswitchstmt(a)
+{
+    var a1,b1;
+    a1=prompt("enter a1 ");
+    b1=prompt("enter b1 ");
+    a1=Number(a1);
+    b1=Number(b1);
+switch(a)
+{
+    case "add":
+        console.log("the addition of numbers",a1,"and",b1,"is",a1+b1);
+        break;
+    case "mul":
+        console.log("the multipication of numbers",a1,"and",b1,"is",a1*b1);
+        break;
+    case "sub":
+        console.log("the subraction of numbers",a1,"and",b1,"is",a1-b1);
+        break;
+    case "div":
+        console.log("the divition of numbers",a1,"and",b1,"is",a1/b1);
+        break;
+        default:
+            alert("case not found");
+}
+
+}
+checkingswitchstmt(prompt("enter the case "));
+
+
+
+
+
 
