@@ -21,3 +21,25 @@ p{
 body{
     background-color: cornflowerblue;
 }
+
+form{
+    border: #0008 2px solid;
+    height: 350px;
+    width: 1250px;
+    background-color: burlywood;
+}
+.childform{
+    border: #0008 2px solid;
+    height: 250px;
+    width: 600px;
+    background-color: rgb(201, 22, 177);
+    position: relative;
+    top: 50px;
+    bottom: 100px;
+}
+
+.childform input,.btn{
+position: relative;
+top: 100px;
+left: 100px;
+}
