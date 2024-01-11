@@ -282,9 +282,39 @@ switch(a)
 
 }
 checkingswitchstmt(prompt("enter the case "));
+function operator(a)
+{
 
+var box1=document.getElementById("v1").value;
+var box2=document.getElementById("v2").value;
 
+ box1=Number(box1);
+box2=Number(box2);
 
+switch(a)
+{
+case '+':
+    document.getElementById("result").innerHTML=box1+box2;
+    break;
+
+case '-':
+
+    document.getElementById("result").innerHTML=box1-box2;
+    break;
+
+case '*':
+
+    document.getElementById("result").innerHTML=box1*box2;
+    break;
+
+case '/':
+
+    document.getElementById("result").innerHTML=box1/box2;
+    break;
+
+}
+
+}
 
 
 
