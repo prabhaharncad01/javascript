@@ -288,39 +288,62 @@
 
 
 
-function operator(a)
+// function operator(a)
+// {
+
+// var box1=document.getElementById("v1").value;
+// var box2=document.getElementById("v2").value;
+
+//  box1=Number(box1);
+// box2=Number(box2);
+
+// switch(a)
+// {
+// case '+':
+//     document.getElementById("result").innerHTML=box1+box2;
+//     break;
+
+// case '-':
+
+//     document.getElementById("result").innerHTML=box1-box2;
+//     break;
+
+// case '*':
+
+//     document.getElementById("result").innerHTML=box1*box2;
+//     break;
+
+// case '/':
+
+//     document.getElementById("result").innerHTML=box1/box2;
+//     break;
+
+// }
+
+// }
+
+
+function registerform()
 {
+    var firstname=document.getElementById("fname").value;
+    var lastname=document.getElementById("lname").value;
+    var middlename=document.getElementById("mname").value;
+    var phonenumber=document.getElementById("phone").value;
+    var email=document.getElementById("email").value;
+    var password=document.getElementById("pass").value;
+    var confirmpassword=document.getElementById("cpass").value;
+    var username=document.getElementById("usname").value;
+    var male=document.getElementById("male").value;
+    var female=document.getElementById("female").value;
+    Event.preventDefault();
 
-var box1=document.getElementById("v1").value;
-var box2=document.getElementById("v2").value;
+    document.getElementById("tbfname").innerHTML=firstname;
+    document.getElementById("tblname").innerHTML=lastname;
+    document.getElementById("tbmname").innerHTML=middlename;
+    document.getElementById("tbphone").innerHTML=phonenumber;
+    document.getElementById("tbphone").innerHTML=phonenumber;
+    document.getElementById("tbphone").innerHTML=phonenumber;
+    document.getElementById("tbphone").innerHTML=phonenumber;
 
- box1=Number(box1);
-box2=Number(box2);
-
-switch(a)
-{
-case '+':
-    document.getElementById("result").innerHTML=box1+box2;
-    break;
-
-case '-':
-
-    document.getElementById("result").innerHTML=box1-box2;
-    break;
-
-case '*':
-
-    document.getElementById("result").innerHTML=box1*box2;
-    break;
-
-case '/':
-
-    document.getElementById("result").innerHTML=box1/box2;
-    break;
 
 }
-
-}
-
-
-
