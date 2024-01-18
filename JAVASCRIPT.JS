@@ -335,15 +335,18 @@ function registerform()
     var username=document.getElementById("usname").value;
     var male=document.getElementById("male").value;
     var female=document.getElementById("female").value;
-    Event.preventDefault();
+ 
 
     document.getElementById("tbfname").innerHTML=firstname;
     document.getElementById("tblname").innerHTML=lastname;
     document.getElementById("tbmname").innerHTML=middlename;
     document.getElementById("tbphone").innerHTML=phonenumber;
-    document.getElementById("tbphone").innerHTML=phonenumber;
-    document.getElementById("tbphone").innerHTML=phonenumber;
-    document.getElementById("tbphone").innerHTML=phonenumber;
+    document.getElementById("tbemail").innerHTML=email;
+    document.getElementById("tbpass").innerHTML=password;
+    document.getElementById("tbpasscon").innerHTML=confirmpassword;
+    document.getElementById("tbusname").innerHTML=username;
+    document.getElementById("tbmale").innerHTML=male;
+    document.getElementById("tbfemale").innerHTML=female;
 
 
 }
