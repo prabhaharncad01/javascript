@@ -323,30 +323,32 @@
 // }
 
 
-function registerform()
-{
-    var firstname=document.getElementById("fname").value;
-    var lastname=document.getElementById("lname").value;
-    var middlename=document.getElementById("mname").value;
-    var phonenumber=document.getElementById("phone").value;
-    var email=document.getElementById("email").value;
-    var password=document.getElementById("pass").value;
-    var confirmpassword=document.getElementById("cpass").value;
-    var username=document.getElementById("usname").value;
-    var male=document.getElementById("male").value;
-    var female=document.getElementById("female").value;
+// function registerform()
+// {
+//     var firstname=document.getElementById("fname").value;
+//     var lastname=document.getElementById("lname").value;
+//     var middlename=document.getElementById("mname").value;
+//     var phonenumber=document.getElementById("phone").value;
+//     var email=document.getElementById("email").value;
+//     var password=document.getElementById("pass").value;
+//     var confirmpassword=document.getElementById("cpass").value;
+//     var username=document.getElementById("usname").value;
+//     var male=document.getElementById("male").value;
+//     var female=document.getElementById("female").value;
  
 
-    document.getElementById("tbfname").innerHTML=firstname;
-    document.getElementById("tblname").innerHTML=lastname;
-    document.getElementById("tbmname").innerHTML=middlename;
-    document.getElementById("tbphone").innerHTML=phonenumber;
-    document.getElementById("tbemail").innerHTML=email;
-    document.getElementById("tbpass").innerHTML=password;
-    document.getElementById("tbpasscon").innerHTML=confirmpassword;
-    document.getElementById("tbusname").innerHTML=username;
-    document.getElementById("tbmale").innerHTML=male;
-    document.getElementById("tbfemale").innerHTML=female;
+//     document.getElementById("tbfname").innerHTML=firstname;
+//     document.getElementById("tblname").innerHTML=lastname;
+//     document.getElementById("tbmname").innerHTML=middlename;
+//     document.getElementById("tbphone").innerHTML=phonenumber;
+//     document.getElementById("tbemail").innerHTML=email;
+//     document.getElementById("tbpass").innerHTML=password;
+//     document.getElementById("tbpasscon").innerHTML=confirmpassword;
+//     document.getElementById("tbusname").innerHTML=username;
+//     document.getElementById("tbmale").innerHTML=male;
+//     document.getElementById("tbfemale").innerHTML=female;
 
 
-}
+// }
+
+

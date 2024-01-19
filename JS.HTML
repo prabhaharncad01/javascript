@@ -38,44 +38,87 @@
    <input type="text" id="inputvalue" value="">
    <button onclick="getinput()">click</button>
     
-
+   <p id="demo"></p>
 
 
    <script>
 
 function getinput()
 {
-     var result=document.getElementById("inputvalue").value;
 
 
 
+    var result=document.getElementById("inputvalue").value;
 
-    for(result;result<20;result++){
-        console.log("print result"+result);
+//     for(result;result<20;result++){
+//         console.log("print result"+result);
 
-while(result<20)
-{
-    console.log("result is lesser than 20" + result);
-    result++;
+// while(result<20)
+// {
+//     console.log("result is lesser than 20" + result);
+//     result++;
+// }
+
+
+// do {
+//     console.log("result is lesser than 20" + result);
+//     if(result<20){alert("number is lesser than 20")}
+//     else{alert("some other number")}
+    
+//     result++;
+// }
+// while (result<20)
+// }
+
+// for(result=0;result<=25;result++){
+//       console.log("number is less than 20"+result);
+  
+//       for(result=-10;result<=5;result++)
+//       {
+//         console.log("number is less than 5 and the number is" + result);
+      
+//       }
+//     alert('number entered is out of range')
+// }
+
+// }
+
+// const cars = ["BMW", "Volvo", "Saab", "Ferrari"];
+
+// for (let i = cars.length - 1; i >= 0; i--) {
+//   result += cars[i] + "<br>";
+// }
+// document.getElementById("demo").innerHTML = result;
+
+// }
+// let result='';
+// for (let i = 0; i < 5; i++) {
+//   result += i + "<br>";   
+//   for (let j = 0; j < 10; j++) {
+//     result += j + "<br>";   
+//   }
+//   document.getElementById("demo").innerHTML = result;
+//   console.log("result");
+// }
+
+let cars=["lamborgini","mercidece","waganor","bmw"];
+
+// {console.log(cars)}
+// {console.table(cars)}
+
+for(let property of cars ){
+
+  
+  console.log(cars);
 }
 
-do {
-    console.log("result is lesser than 20" + result);
-    result++;
+
+
+
+
+
 }
-while (result<20)
-}
-
-
-
-
-
-
-    }
-}
-
-
-
    </script>
 </body>
 </html>
+
