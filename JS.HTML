@@ -34,11 +34,11 @@
     <title>loops</title>
 </head>
 <body>
-   Input: 
-   <input type="text" id="inputvalue" value="">
+   <!-- Input:  -->
+   <!-- <input type="text" id="inputvalue" value="">
    <button onclick="getinput()">click</button>
     
-   <p id="demo"></p>
+   <p id="demo"></p> -->
 
 
    <script>
@@ -48,7 +48,7 @@ function getinput()
 
 
 
-    var result=document.getElementById("inputvalue").value;
+    // var result=document.getElementById("inputvalue").value;
 
 //     for(result;result<20;result++){
 //         console.log("print result"+result);
@@ -101,23 +101,99 @@ function getinput()
 //   console.log("result");
 // }
 
-let cars=["lamborgini","mercidece","waganor","bmw"];
+// let cars=["lamborgini","mercidece","waganor","bmw"];
 
 // {console.log(cars)}
 // {console.table(cars)}
 
-for(let property of cars ){
+// const student={fname:"prabahran",lname:"murugesan",age:"25"}
 
-  
-  console.log(cars);
+// for (let a in student)
+// {
+//     console.log(student[a]);
+// }
+
+
+
+// const student={fname:"prabahran",lname:"murugesan",age:"25"}
+
+// for (let property in student)
+// {
+//     console.log(property + ":" + student[property]);
+// }
+
+//  for(names of cars)
+//  {
+//     console.log(cars);
+//  }
+
+// var rows=20;
+// var cols=20;
+
+// for (var i=0;i<rows;i++)
+// {
+
+//     for(var k=0;k<=(rows-i);k++)
+//     {
+//         document.write("&nbsp;");
+//     }
+// for(var j=0;j<=i;j++)
+// {
+//     document.write(i);
+// }
+
+
+
+//     document.write("</br>");
+// }
+
+// let today=new Date();
+// console.log(today);
+// console.log(today.toDateString());
+// console.log(today.toISOString());
+// console.log(today.toJSON());
+// console.log(today.toLocaleDateString());
+// console.log(today.toLocaleString());
+// console.log(today.toLocaleTimeString());
+// console.log(today.toTimeString());
+// console.log(today.toUTCString());
+// console.log(today.getTimezoneOffset());
+
+
+// let dob=new Date("05-27-2000");
+// console.log(dob);
+// let age= today.getFullYear()-dob.getFullYear();
+// console.log(age);
+
+
+let text="a book or other written or printed work, regarded in terms of its content rather than its physical form";
+
+console.log(text.length);
+
+let words=text.match(/physical/);
+let words1=text.match(/physical/gi);
+let words2=(text.slice(-55,-10));
+let words3=(text.substring(12,10));
+let words4=(text.charAt(10));
+let words5=(text.charAt(10));
+console.log(words);
+console.log(words1);
+console.log(words2);
+console.log(words3);
+console.log(words4);
+
+{
+console.table(text.split(" "));
+
+console.log(text.length);
+var text1=text.trim();
+console.log(text1.length);}
+
+
+
+
 }
-
-
-
-
-
-
-}
+getinput()
    </script>
 </body>
 </html>
