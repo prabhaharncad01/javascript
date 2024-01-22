@@ -166,33 +166,84 @@ function getinput()
 // console.log(age);
 
 
-let text="a book or other written or printed work, regarded in terms of its content rather than its physical form";
+let text="a book or       forms other written or printed forms work,regarded in terms of its content rather than its physical form";
 
-console.log(text.length);
+// console.log(text.length);
 
-let words=text.match(/physical/);
-let words1=text.match(/physical/gi);
-let words2=(text.slice(-55,-10));
-let words3=(text.substring(12,10));
-let words4=(text.charAt(10));
-let words5=(text.charAt(10));
-console.log(words);
-console.log(words1);
-console.log(words2);
-console.log(words3);
-console.log(words4);
+// let words=text.match(/physical/);
+// let words1=text.match(/physical/gi);
+// let words2=(text.slice(-55,-10));
+// let words3=(text.substring(12,10));
+// let words4=(text.charAt(10));
+// let words5=(text.charAt(10));
+// console.log(words);
+// console.log(words1);
+// console.log(words2);
+// console.log(words3);
+// console.log(words4);
 
+
+// console.table(text.split(" "));
+
+// console.log(text.length);
+// var text1=text.trim();
+// console.log(text1);
+// var output=text.toUpperCase();
+// var output=text.toLowerCase();
+// var output=text.charAt(10);
+// var output=text.charCodeAt(0);
+// var output=text.startsWith("a")
+// var output=text.endsWith("m");
+// var output=text.replace('form','forms');
+// var output=text.replaceAll('form','forums');
+// var number="5";
+// number=number.padStart(5,"B");
+// console.log(number);
+
+// var number="58";
+// number=number.padEnd(10,"h");
+// console.log(number);
+
+
+// console.log=(text.split(" "));
+
+var namelist=["praba","mani","nancy","basheer","pavithra"];
+
+
+console.log(namelist);
+console.table(namelist);
+
+
+for (var a=0;a<namelist;a++)
 {
-console.table(text.split(" "));
-
-console.log(text.length);
-var text1=text.trim();
-console.log(text1.length);}
-
-
-
-
+    console.log(namelist[a]);
 }
+
+
+var result=namelist.forEach(name1=> console.log(name1));
+
+console.clear();
+
+
+var listofnumbers=[1,2,3,4,5,6,7,8,9];
+var result=listofnumbers.map(number=>number*3);
+console.table(result + "x2" + "=" + result);
+
+
+
+// var result=listofnumbers.reduce((sum,number)=>sum+=1);
+// console.log(result);
+
+// console.log(Math.PI);
+
+// console.log(Math.E);
+
+// console.log(Math.floor(Math.random()*10+100));
+
+
+ }
+
+
 getinput()
    </script>
 </body>
