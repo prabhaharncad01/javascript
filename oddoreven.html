@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input" value="">
+    <button onclick="oddoreven()">click</button>
+    <h1 id="result"></h1>
+<script>
+    function oddoreven(){
+     input=document.getElementById("input").value;
+    result=document.getElementById("result");
+input=Number(input);
+if(!isNaN(input)){
+    if( input%2==0 )
+{
+    document.getElementById("result").innerHTML="number is even";
+}
+else 
+{
+     document.getElementById("result").innerHTML="number is odd";
+}}
+else
+{
+    document.getElementById("result").innerHTML=alert("its not a number");
+}
+
+
+    }
+
+
+</script>
+</body>
+</html>
+
